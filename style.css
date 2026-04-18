@@ -1,0 +1,138 @@
+body{
+    background-image: url("coffee1.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: rgb(83, 27, 5);
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.h11{
+    color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.nav1{
+    display: flex;
+    padding: 10px;
+}
+
+.ul1{
+    display: flex;
+    list-style-type: none;
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.me{
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    margin-top: 150px;
+}
+
+
+
+.h21{
+    color: hsl(20, 37%, 97%);
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.p1{
+    color: #e2d6d6;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.btn1{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #8f5322;
+    color: #000;
+    border: none;
+    border: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #000;
+}
+
+.btn1:hover{
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+
+}
+
+.b1{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+    
+
+.b2{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+.b3{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 0px;  
+    gap: 30px;
+}
+
+.copy{
+    background-color: rgba(161, 121, 121, 0.8);
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
